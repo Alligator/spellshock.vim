@@ -7,7 +7,7 @@ function! s:random_word(str)
   if len(words) == 0
     return
   endif
-  let long_words = filter(words, 'len(v:val) > 3')
+  let long_words = filter(words, 'len(v:val) > 5')
   if len(long_words) > 10
     return long_words[s:rand(len(long_words))]
   endif
