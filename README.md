@@ -16,7 +16,7 @@ Other plugin managers may vary.
 
 ## usage
 
-Run `:Spellshock` to play.
+Run `:Spellshock` to play. It picks a random word from the current buffer.
 
 ## why did you make this
 
